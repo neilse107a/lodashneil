@@ -1,0 +1,29 @@
+{
+  "name": "lodashneil",
+  "version": "0.1.0",
+  "description": "reimplement loadash ..",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm test",
+    "test": "mocha",
+    "all": "npm run test&& npm run cover",
+    "cover": "nyc mocha"
+  },
+  "author": "ccc",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "cover": "^0.2.9",
+    "docdash": "^1.0.0",
+    "mz": "^2.7.0",
+    "nyc": "^13.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/se107a/ccclodash.git"
+  }
+}
